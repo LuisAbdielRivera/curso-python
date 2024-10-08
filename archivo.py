@@ -40,3 +40,15 @@ if imprimir:
     print('El valor de la operación es:', (e + f)*g)
 else:
     print('No esta permitido imprimir')
+
+h = 1 + 2 + 3 + 4 + 5+\
+6 + 7 + 8
+print(h)
+
+i = (1 + 2 + 3 + 4 + 5+
+6 + 7 + 8)
+print(i)
+
+def suma (j, k):
+    return (j + k)
+print(suma(8,9))
