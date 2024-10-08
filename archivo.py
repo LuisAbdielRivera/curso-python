@@ -51,4 +51,17 @@ print(i)
 
 def suma (j, k):
     return (j + k)
+
+def resta (j, k):
+    return (j - k)
+
+def multi (j, k):
+    return (j * k)
+
+def div (j, k):
+    return (j / k)
+
 print(suma(8,9))
+
+l = 56; m=64; n=49
+
