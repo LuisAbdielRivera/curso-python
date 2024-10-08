@@ -49,6 +49,7 @@ i = (1 + 2 + 3 + 4 + 5+
 6 + 7 + 8)
 print(i)
 
+#Crear funciones en Python
 def suma (j, k):
     return (j + k)
 
@@ -63,5 +64,8 @@ def div (j, k):
 
 print(suma(8,9))
 
+#Declarar variables
 l = 56; m=64; n=49
 
+import keyword
+print(keyword.kwlist)
