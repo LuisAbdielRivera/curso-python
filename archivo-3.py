@@ -12,9 +12,29 @@ for i in range(5):
     print(i)
 
 #Ciclo for implementando salto
+print ("Ciclo for utilizando continue")
 for i in range(6):
     if i == 4:
         continue
     print(i)
 
-#
+#Ciclo while instruccion para finalizar una ejecución
+x = 0
+while True:
+    print(x)
+    if x == 50:
+        break
+    x+=1
+
+#Manejo de excepciones assert, try, except, finally, raise
+print("Manejo de excepciones")
+x = "10"
+valor = None
+try: 
+    valor = int(x)
+    b = 3
+    res = valor + b
+except Exception as e:
+    print("Existe un error:", e)
+finally:
+    print("El resultado es:", res)
