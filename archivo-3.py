@@ -49,3 +49,15 @@ def suma_uno():
 
 suma_uno()
 print(a)
+
+#Uso de nonlocal
+def function_a():
+    x = 10
+    def funcion_b():
+        nonlocal x
+        x = 20
+        print("funcion_b", x)
+    funcion_b()
+    print("funcion_a", x)
+
+function_a()
