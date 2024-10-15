@@ -12,4 +12,9 @@ for i in range(5):
     print(i)
 
 #Ciclo for implementando salto
-for i in range(6)
+for i in range(6):
+    if i == 4:
+        continue
+    print(i)
+
+#
