@@ -38,3 +38,14 @@ except Exception as e:
     print("Existe un error:", e)
 finally:
     print("El resultado es:", res)
+
+#Variables locales, variables globales y nonlocal en Python
+a = 0
+def suma_uno():
+    global a
+    for i in range(6):
+        a = a + 1
+    print(a)
+
+suma_uno()
+print(a)
